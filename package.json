@@ -8,7 +8,6 @@
     "test": "cross-env NODE_ENV=test jest",
     "test:cover": "yarn test --coverage",
     "test:changed": "yarn test --watch",
-    "test:ensure-failure": "bash ./ensure-a-failing-test.sh",
     "test:update": "yarn test -u",
     "test:watch": "yarn test --watchAll",
     "lint": "yarn lint:ts",
